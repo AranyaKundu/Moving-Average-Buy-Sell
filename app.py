@@ -7,7 +7,7 @@ import pandas as pd
 
 beginDate = dt.datetime.now() - dt.timedelta(days=365 * 3)
 endDate = dt.datetime.now()
-rfpath = "e:\\Python Learning\\Quant Finance\\algorithmic-trading-python-master\\starter_files\\sp_500_stocks.csv"
+rfpath = "./sp_500_stocks.csv"
 stocks = pd.read_csv(rfpath)
 stock = stocks['Ticker'].tolist()
 
