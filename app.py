@@ -43,7 +43,7 @@ ui = ui.page_fluid(
         ),
         ui.navset_pill_card(
             ui.nav_control({"class": "myNav"},
-                ui.a("Movinfg Average Investment Simulation Strategy", href = "#", style="color: black")
+                ui.a("Moving Average Investment Simulation Strategy", href = "#", style="color: black")
             ),
             ui.nav_spacer(),
             ui.nav("Data Visualization",
